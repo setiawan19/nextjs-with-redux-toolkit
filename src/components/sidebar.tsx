@@ -9,7 +9,7 @@ export const Sidebar = () => {
   const foodMaterials = items.filter(item => item.used === false);
 
   return (
-    <div className="w-full p-2 min-h-40">
+    <div className="w-full p-4 min-h-40 border-2">
       <div>List Bahan :</div>
       <div>
         {foodMaterials.map((item) => {
