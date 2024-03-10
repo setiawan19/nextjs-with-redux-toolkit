@@ -5,7 +5,7 @@ import { Sidebar } from "@/components/sidebar";
 
 
 
-export const Home = ()=> {
+export default function Home() {
 
   return (
     <main className="flex min-h-screen items-start justify-between p-24">
@@ -14,4 +14,3 @@ export const Home = ()=> {
     </main>
   );
 }
-export default Home;
